@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>عيادة صعب - Saab Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Noto+Kufi+Arabic:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <div id="preloader" class="preloader">
+      <div class="spinner" aria-hidden="true"></div>
+      <span class="sr-only">Loading…</span>
+    </div>
+    <div class="header-wrap">
+      <header class="card reveal" id="top">
+        <div class="header-inner">
+          <div class="brand" style="display:flex;align-items:center;gap:12px">
+            <div>
+              <h1 id="title">عيادة صعب</h1>
+              <div class="muted">
+                <span class="lang ar active" dir="rtl">المكان الأفضل للجودة العالية في الرعاية الصحية</span>
+                <span class="lang en" dir="ltr">The best place for high-quality healthcare</span>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="Top" class="top-nav collapsed" id="topNav" aria-expanded="false">
+            <ul class="lang ar active" dir="rtl">
+              <li><a href="#home">الرئيسية</a></li>
+              <li><a href="#sara">د. سارة</a></li>
+              <li><a href="#majed">د. ماجد</a></li>
+              <li><a href="#locations">المواقع</a></li>
+            </ul>
+            <ul class="lang en" dir="ltr">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#sara">Dr. Sara</a></li>
+              <li><a href="#majed">Dr. Majed</a></li>
+              <li><a href="#locations">Locations</a></li>
+            </ul>
+          </nav>
+          <button class="nav-toggle" aria-controls="topNav" aria-expanded="false" aria-label="Open menu">☰</button>
+          <button class="lang-switch" onclick="switchLang()">English</button>
+        </div>
+      </header>
+    </div>
+
+    <main>
+      <section class="typographic-hero reveal">
+        <div class="giant-wrap">
+          <h2 class="giant-type">SAAB</h2>
+        </div>
+
+          <div class="hero-content" style="text-align:center;position:relative;z-index:8;margin-top:18px">
+            <div class="lang ar active" dir="rtl">
+              <h1 class="hero-headline">عيادة صعب — رعاية طبية بجودة استثنائية</h1>
+              <p class="hero-sub">المكان الأفضل للرعاية الشاملة والمتخصصة.</p>
+              <div class="hero-cta" style="text-align:center;margin-top:30px">
+                <a class="cta" href="tel:1234567890">احجز الآن</a>
+              </div>
+            </div>
+            <div class="lang en" dir="ltr">
+              <h1 class="hero-headline">Saab Clinic — Exceptional medical care</h1>
+              <p class="hero-sub">Comprehensive, compassionate care from experienced specialists.</p>
+              <div class="hero-cta" style="text-align:center;margin-top:30px">
+                <a class="cta" href="tel:1234567890">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="decor-shapes" aria-hidden="true">
+            <img src="images/shapes/shape1.svg" class="shape-1 animate" alt=""/>
+            <img src="images/shapes/shape2.svg" class="shape-2 animate" alt=""/>
+            <img src="images/shapes/shape3.svg" class="shape-3 animate" alt=""/>
+          </div>
+
+          <div class="card-carousel">
+          <button class="carousel-btn prev" aria-label="Previous">‹</button>
+          <div class="card-track">
+        <div class="card-list">
+            <div class="card-bubble reveal" data-left="10%" style="left:10%">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80" alt="Family medicine doctor smiling">
+            <div class="caption"><span class="lang ar active" dir="rtl">طبيبة الأسرة — رقم 01</span><span class="lang en" dir="ltr">Family Medicine — #01</span></div>
+          </div>
+
+          <div class="card-bubble reveal" data-left="26%" style="left:26%">
+            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=800&q=80" alt="Cardiology specialist">
+            <div class="caption"><span class="lang ar active" dir="rtl">قلب — رقم 02</span><span class="lang en" dir="ltr">Cardiology — #02</span></div>
+          </div>
+
+          <div class="card-bubble reveal" data-left="42%" style="left:42%">
+            <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=800&q=80" alt="Dermatology consultation">
+            <div class="caption"><span class="lang ar active" dir="rtl">جلدية — رقم 03</span><span class="lang en" dir="ltr">Dermatology — #03</span></div>
+          </div>
+
+          <div class="card-bubble reveal" data-left="58%" style="left:58%">
+            <img src="https://images.unsplash.com/photo-1542736667-069246bdbc75?auto=format&fit=crop&w=800&q=80" alt="Pediatric care">
+            <div class="caption"><span class="lang ar active" dir="rtl">أطفال — رقم 04</span><span class="lang en" dir="ltr">Pediatrics — #04</span></div>
+          </div>
+
+          <div class="card-bubble reveal" data-left="74%" style="left:74%">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80&sat=-30" alt="Neurology specialist">
+            <div class="caption"><span class="lang ar active" dir="rtl">أعصاب — رقم 05</span><span class="lang en" dir="ltr">Neurology — #05</span></div>
+          </div>
+          <div class="card-bubble reveal" data-left="10%" style="left:10%">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80" alt="Family medicine doctor smiling">
+            <div class="caption"><span class="lang ar active" dir="rtl">طبيبة الأسرة — رقم 01</span><span class="lang en" dir="ltr">Family Medicine — #01</span></div>
+          </div>
+
+          <div class="card-bubble reveal" data-left="26%" style="left:26%">
+            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=800&q=80" alt="Cardiology specialist">
+            <div class="caption"><span class="lang ar active" dir="rtl">قلب — رقم 02</span><span class="lang en" dir="ltr">Cardiology — #02</span></div>
+          </div>
+
+          <div class="card-bubble reveal" data-left="42%" style="left:42%">
+            <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=800&q=80" alt="Dermatology consultation">
+            <div class="caption"><span class="lang ar active" dir="rtl">جلدية — رقم 03</span><span class="lang en" dir="ltr">Dermatology — #03</span></div>
+          </div>
+
+          <div class="card-bubble reveal" data-left="58%" style="left:58%">
+            <img src="https://images.unsplash.com/photo-1542736667-069246bdbc75?auto=format&fit=crop&w=800&q=80" alt="Pediatric care">
+            <div class="caption"><span class="lang ar active" dir="rtl">أطفال — رقم 04</span><span class="lang en" dir="ltr">Pediatrics — #04</span></div>
+          </div>
+
+          <div class="card-bubble reveal" data-left="74%" style="left:74%">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80&sat=-30" alt="Neurology specialist">
+            <div class="caption"><span class="lang ar active" dir="rtl">أعصاب — رقم 05</span><span class="lang en" dir="ltr">Neurology — #05</span></div>
+          </div>
+        </div>
+          </div>
+          <button class="carousel-btn next" aria-label="Next">›</button>
+        </div>
+
+        
+      </section>
+
+      <section class="card">
+        <div class="lang ar active" dir="rtl">
+          <h3>الخدمات</h3>
+          <div class="services">
+            <div class="service reveal">
+              <div class="icon"><img src="images/icons/checkup.svg" alt="Checkup icon"></div>
+              <div>
+                <h4>فحوصات عامة</h4>
+                <p class="muted">فحوصات شاملة للحفاظ على صحتك.</p>
+              </div>
+            </div>
+            <div class="service reveal">
+              <div class="icon"><img src="images/icons/heart.svg" alt="Heart icon"></div>
+              <div>
+                <h4>علاج الأمراض المزمنة</h4>
+                <p class="muted">خطة علاجية مخصصة ومتابعة دقيقة.</p>
+              </div>
+            </div>
+            <div class="service reveal">
+              <div class="icon"><img src="images/icons/consult.svg" alt="Consult icon"></div>
+              <div>
+                <h4>استشارات طبية</h4>
+                <p class="muted">استشارات من أفضل الأطباء.</p>
+              </div>
+            </div>
+            <div class="service reveal">
+              <div class="icon"><img src="images/icons/checkup.svg" alt="Records icon"></div>
+              <div>
+                <h4>سجلات طبية متقدمة</h4>
+                <p class="muted">نظام متابعة إلكتروني آمن.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lang en" dir="ltr">
+          <h3>Services</h3>
+          <div class="services">
+            <div class="service reveal">
+              <div class="icon">🩺</div>
+              <div>
+                <h4>General Checkups</h4>
+                <p class="muted">Comprehensive exams to keep you healthy.</p>
+              </div>
+            </div>
+            <div class="service reveal">
+              <div class="icon">💊</div>
+              <div>
+                <h4>Chronic Disease Care</h4>
+                <p class="muted">Personalized plans and close follow-up.</p>
+              </div>
+            </div>
+            <div class="service reveal">
+              <div class="icon">🩺</div>
+              <div>
+                <h4>Medical Consultations</h4>
+                <p class="muted">Consultations with top specialists.</p>
+              </div>
+            </div>
+            <div class="service reveal">
+              <div class="icon">📋</div>
+              <div>
+                <h4>Advanced Records</h4>
+                <p class="muted">Secure electronic follow-up system.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="card contact-section reveal">
+        <div class="lang ar active" dir="rtl">
+          <h3>تواصل معنا</h3>
+          <div class="form-wrapper">
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <label>الاسم</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="form-row">
+              <label>البريد الإلكتروني</label>
+              <input type="email" name="email" required>
+            </div>
+            <div class="form-row">
+              <label>الرسالة</label>
+              <textarea name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-row">
+              <button class="cta" type="submit">أرسل الرسالة</button>
+            </div>
+            <div id="contactResult" class="muted" role="status" aria-live="polite" style="display:none;margin-top:10px"></div>
+          </form>
+          </div>
+        </div>
+        <div class="lang en" dir="ltr">
+          <h3>Contact Us</h3>
+          <div class="form-wrapper">
+          <form id="contactFormEn" novalidate>
+            <div class="form-row">
+              <label>Name</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="form-row">
+              <label>Email</label>
+              <input type="email" name="email" required>
+            </div>
+            <div class="form-row">
+              <label>Message</label>
+              <textarea name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-row">
+              <button class="cta" type="submit">Send Message</button>
+            </div>
+            <div id="contactResultEn" class="muted" role="status" aria-live="polite" style="display:none;margin-top:10px"></div>
+          </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer reveal" role="contentinfo">
+      <div class="inner">
+        <div class="left">
+          <small><span class="lang ar" dir="rtl">© 2026 عيادة صعب. كل الحقوق محفوظة.</span><span class="lang en active" dir="ltr">© 2026 Saab Clinic. All rights reserved.</span></small>
+        </div>
+        <div class="right">
+          <nav class="social-links" aria-label="Social">
+            <a href="#" aria-label="Twitter">Twitter</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <button id="backToTop" aria-label="Back to top">↑</button>
+    <script>
+      // Centralized language setter: shows only the chosen language, hides the other
+      function setLanguage(lang){
+        const ars = Array.from(document.querySelectorAll('.lang.ar'));
+        const ens = Array.from(document.querySelectorAll('.lang.en'));
+        const btn = document.querySelector('.lang-switch');
+        const isAr = lang === 'ar';
+
+        // toggle active classes and aria-hidden for accessibility
+        ars.forEach(el=>{
+          if(isAr){ el.classList.add('active'); el.setAttribute('aria-hidden','false'); }
+          else { el.classList.remove('active'); el.setAttribute('aria-hidden','true'); }
+        });
+        ens.forEach(el=>{
+          if(!isAr){ el.classList.add('active'); el.setAttribute('aria-hidden','false'); }
+          else { el.classList.remove('active'); el.setAttribute('aria-hidden','true'); }
+        });
+
+        // document direction + lang
+        document.documentElement.lang = isAr ? 'ar' : 'en';
+        document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+
+        // update title text from loaded site config when available
+        try{
+          if(window.__siteConfig && window.__siteConfig.siteTitle){
+            const t = window.__siteConfig.siteTitle[isAr ? 'ar' : 'en'] || window.__siteConfig.siteTitle.ar;
+            const titleEl = document.getElementById('title');
+            if(titleEl) titleEl.textContent = t;
+            document.title = t + ' - ' + (isAr ? 'عيادة صعب' : 'Saab Clinic');
+          }
+        }catch(e){}
+
+        // update UI for the switch button (shows the language to switch to)
+        if(btn){ btn.textContent = isAr ? 'English' : 'العربية'; }
+
+        try{ localStorage.setItem('saab_lang', isAr ? 'ar' : 'en') }catch(e){}
+      }
+
+      // load config and initialize language state
+      async function loadSiteConfig(){
+        try{
+          const res = await fetch('design/site.json');
+          if(!res.ok) return;
+          const cfg = await res.json();
+          // keep config for runtime language switching
+          window.__siteConfig = cfg;
+          const defaultLang = cfg.defaultLang || 'ar';
+          // set title localized if available
+          const title = (cfg.siteTitle && cfg.siteTitle[defaultLang]) ? cfg.siteTitle[defaultLang] : (cfg.siteTitle && cfg.siteTitle.ar) || document.getElementById('title').textContent;
+          document.getElementById('title').textContent = title;
+
+          // if user previously chose a language, prefer that
+          let chosen = defaultLang;
+          try{ const stored = localStorage.getItem('saab_lang'); if(stored) chosen = stored }catch(e){}
+          setLanguage(chosen);
+        }catch(e){
+          console.warn('Could not load site config', e);
+          // fallback: respect stored preference if present
+          try{ const stored = localStorage.getItem('saab_lang'); if(stored) setLanguage(stored); else setLanguage('ar') }catch(e){ setLanguage('ar') }
+        }
+      }
+
+      // toggles language when user clicks
+      function switchLang(){
+        const current = document.documentElement.lang === 'ar' ? 'ar' : 'en';
+        setLanguage(current === 'ar' ? 'en' : 'ar');
+      }
+
+      loadSiteConfig();
+
+      // reveal-on-scroll using IntersectionObserver
+      document.addEventListener('DOMContentLoaded', ()=>{
+        const elems = document.querySelectorAll('.reveal');
+        const io = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if(entry.isIntersecting){
+              entry.target.classList.add('in');
+              // animate icons inside
+              const icons = entry.target.querySelectorAll('.icon');
+              icons.forEach(ic => ic.classList.add('animate'));
+              observer.unobserve(entry.target);
+            }
+          });
+        },{threshold:0.12});
+        elems.forEach(e=>io.observe(e));
+      });
+    </script>
+    <script src="scripts/main.js" defer></script>
+  </body>
+</html>

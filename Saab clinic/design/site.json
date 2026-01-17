@@ -1,0 +1,16 @@
+{
+  "siteTitle": {
+    "ar": "عيادة صعب",
+    "en": "Saab Clinic"
+  },
+  "description":{
+    "ar":"المكان الأفضل للجودة العالية في الرعاية الصحية.",
+    "en":"The place for the best quality healthcare."
+  },
+  "colors":{
+    "primary":"#007bff",
+    "accent":"#28a745",
+    "background":"#f4f4f4"
+  },
+  "defaultLang":"ar"
+}
